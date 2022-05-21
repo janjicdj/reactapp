@@ -1,13 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Plus+Jakarta+Sans:ital,wght@1,200&display=swap');
+
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Koulen', cursive;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+
+  font-size: 25px;
+  background-color: #ebe9a1;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.forma_prijava {
+  display: block;
+  margin-top: 60px;
+}
+
+.element-forme {
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+
+.input_prijava {
+  width: 250px;
+  height: 25px;
+  padding-top: 15px;
+  font-size: 25px;
+}
+
+.dugme_prijava {
+  margin-top: 30px;
+  height: 50px;
+  width: 180px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
