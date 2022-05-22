@@ -8,7 +8,7 @@ body {
   font-family: 'Plus Jakarta Sans', sans-serif;
 
   font-size: 25px;
-  background-color: #ebe9a1;
+  background-color: #8d96dc;
 }
 
 code {
@@ -32,13 +32,14 @@ code {
   height: 25px;
   padding-top: 15px;
   font-size: 25px;
+  
 }
 
 .dugme_prijava {
-  margin-top: 30px;
+  
   height: 50px;
   width: 180px;
   border-radius: 10px;
   font-size: 20px;
+  
 }
-

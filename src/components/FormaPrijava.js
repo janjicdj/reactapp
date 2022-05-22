@@ -1,10 +1,10 @@
 import { useState } from 'react';
 
-function FormaPrijava(props) {
+function FormaPrijava({naslov,funkcija}) {
 
     const [marka, setMarka] = useState('');
     const [kubikaza, setKubikaza] = useState('');
-    const [registracija, setReg] = useState();
+    const [registracija, setReg] = useState('');
 
     function handleMarka(e) {
         setMarka(e.target.value);
@@ -20,7 +20,7 @@ function FormaPrijava(props) {
 
     return (
         <div>
-            <h2>{props.naslov}</h2>
+            <h2>{naslov}</h2>
             <form className="forma_prijava">
                 <div className="element-forme">
                     <label>Marka: </label>
@@ -34,7 +34,7 @@ function FormaPrijava(props) {
                     <label>Registracija: </label>
                     <input type={'number'} className="input_prijava" value={registracija} onChange={handleReg}></input>
                 </div>
-                <button type="submit" onClick={() => props.funkcija(marka, kubikaza, registracija)} className="dugme_prijava" value={registracija} onChange={handleReg}>Prijavi se</button>
+                <button type="submit" onClick={() => funkcija(marka, kubikaza, registracija)} className="dugme_prijava" value={registracija} onChange={handleReg}>Prijavi se</button>
             </form>
         </div>
     );
